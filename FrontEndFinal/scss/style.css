@@ -1,6 +1,8 @@
 .dropdown-menu {
   border-top: 2px solid #232323;
-  border-radius: 0; }
+  border-radius: 0;
+  display: flex;
+  white-space: nowrap; }
   .dropdown-menu .dropdown-item {
     width: 100%;
     border-top: 1px solid #e9ecefee;

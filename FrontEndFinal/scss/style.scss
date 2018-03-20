@@ -4,6 +4,9 @@
 .dropdown-menu{
     border-top: 2px solid #232323;
     border-radius: 0;
+    display: flex;
+    white-space: nowrap;
+    
     
     .dropdown-item{
        
