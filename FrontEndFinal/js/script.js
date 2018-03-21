@@ -43,5 +43,6 @@ $(document).ready(function(){
     //     $(this).css("border", "2px solid red ");
     // });
     $('.timer').countTo();
+    
 });
     

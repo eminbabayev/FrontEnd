@@ -15,7 +15,7 @@
 
 <body>
 
-  <header>
+  <header id="navbar">
     <nav class="navbar w-100 justify-content-center navbar-expand-md navbar-fixed-top navbar-light mynav-bg">
 
       <div class="mynav d-flex justify-content-between">
@@ -154,10 +154,10 @@
             <div class="column col-md-9 col-sm-12 col-xs-12">
               <div class="row">
                 <div class="form-group col-md-6 col-sm-6 co-xs-12">
-                  <input type="text" class="input-text" name="text" value="" placeholder="Your Website" required>
+                  <input type="text" class="form-control" name="text" value="" placeholder="Your Website" required>
                 </div>
                 <div class="form-group col-md-6 col-sm-6 co-xs-12">
-                  <input type="email" class="input-text" name="email" value="" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" value="" placeholder="Your Email" required>
                 </div>
               </div>
             </div>
@@ -329,28 +329,235 @@
   </section>
 
   <section id="gallery">
+      <div class="container">
+          <div class="gallery-title">
+              <h2 class="gal-text">Our <span class="case">Case Studies</span></h2>
+          </div>
+
+          <div class="row">
+              <!-- Gallery Item -->
+              <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="box">
+                      <figure class="image-box">
+                          <img src="img/1.jpg" alt="">
+                          <!--Overlay Box-->
+                          <div class="overlay">
+                              <div class="overlay-inner">
+                                  <div class="content">
+                                      <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                      <a href="img/1.jpg" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-search-plus"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </figure>
+                  </div>
+              </div>
+
+              <!-- Gallery Item -->
+              <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="box">
+                      <figure class="image-box">
+                          <img src="img/2.jpg" alt="">
+                          <!--Overlay Box-->
+                          <div class="overlay">
+                              <div class="overlay-inner">
+                                  <div class="content">
+                                      <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                      <a href="img/2.jpg" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-search-plus"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </figure>
+                  </div>
+              </div>
+
+              <!-- Gallery Item -->
+              <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="box">
+                      <figure class="image-box">
+                          <img src="img/3.jpg" alt="">
+                          <!--Overlay Box-->
+                          <div class="overlay">
+                              <div class="overlay-inner">
+                                  <div class="content">
+                                      <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                      <a href="img/3.jpg" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-search-plus"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </figure>
+                  </div>
+              </div>
+
+              <!-- Gallery Item -->
+              <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="box">
+                      <figure class="image-box">
+                          <img src="img/4.jpg" alt="">
+                          <!--Overlay Box-->
+                          <div class="overlay">
+                              <div class="overlay-inner">
+                                  <div class="content">
+                                      <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                      <a href="img/4.jpg" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-search-plus"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </figure>
+                  </div>
+              </div>
+
+              <!-- Gallery Item -->
+              <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="box">
+                      <figure class="image-box">
+                          <img src="img/5.jpg" alt="">
+                          <!--Overlay Box-->
+                          <div class="overlay">
+                              <div class="overlay-inner">
+                                  <div class="content">
+                                      <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                      <a href="img/5.jpg" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-search-plus"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </figure>
+                  </div>
+              </div>
+
+              <!-- Gallery Item -->
+              <div class="item col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                  <div class="box">
+                      <figure class="image-box">
+                          <img src="img/6.jpg" alt="">
+                          <!--Overlay Box-->
+                          <div class="overlay">
+                              <div class="overlay-inner">
+                                  <div class="content">
+                                      <a href="#" class="link"><span class="icon fa fa-link"></span></a>
+                                      <a href="img/6.jpg" class="link" data-fancybox="gallery" data-caption=""><span class="icon fa fa-search-plus"></span></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </figure>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="services">
     <div class="container">
-      <div class="case-title">
-        <div class="leverage">
-          Our
-          <span class="grow">
-            Case Studies
-          </span>
+      <div class="services-title">
+        <h2 class="services-h">
+          Why Take Our
+          <span class="serv">Services</span>
+        </h2>
+        <div class="services-text">
+          Volutpat felis at libero mattis condimentum. Sed aliquam vehicula metus sit amet dapibus. Aliquam
+          <br>
+          nec ipsum tincidunt, pulvinar arcu et, molestie odio. Pellentesque iaculis sed sem.
         </div>
       </div>
       <div class="row">
-        <div class="gallery-item col-md-4 col-lg-4 col-sm-6 col-xs-12">
-          <div class="inner-box">
-            <div class="image-box">
-              <img src="" alt="">
-              <div class="overlay">
-                <div class="overlay-inner">
-                  <div class="content">
-                    <a href="#" class="link">
-                      <span class="icon fa-fa-link"></span>
-                    </a>
-                  </div>
-                </div>
+        <div class="box-service col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="inner-service">
+            <div class="content-service">
+              <div class="icon-service">
+                <span class="ico">
+                  <img src="img/icon-1.png" alt="">
+                </span>
+              </div>
+              <h3 class="free">
+                <a href="#" class="rer">Free Technical Audit</a>
+              </h3>
+              <div class="free-text">
+                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-service col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="inner-service">
+            <div class="content-service">
+              <div class="icon-service">
+                <span class="ico">
+                  <img src="img/icon-2.png" alt="">
+                </span>
+              </div>
+              <h3 class="free">
+                <a href="#" class="rer">Free Technical Audit</a>
+              </h3>
+              <div class="free-text">
+                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-service col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="inner-service">
+            <div class="content-service">
+              <div class="icon-service">
+                <span class="ico">
+                  <img src="img/icon-3.png" alt="">
+                </span>
+              </div>
+              <h3 class="free">
+                <a href="#" class="rer">Free Technical Audit</a>
+              </h3>
+              <div class="free-text">
+                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-service col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="inner-service">
+            <div class="content-service">
+              <div class="icon-service">
+                <span class="ico">
+                  <img src="img/icon-4.png" alt="">
+                </span>
+              </div>
+              <h3 class="free">
+                <a href="#" class="rer">Free Technical Audit</a>
+              </h3>
+              <div class="free-text">
+                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-service col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="inner-service">
+            <div class="content-service">
+              <div class="icon-service">
+                <span class="ico">
+                  <img src="img/icon-5.png" alt="">
+                </span>
+              </div>
+              <h3 class="free">
+                <a href="#" class="rer">Free Technical Audit</a>
+              </h3>
+              <div class="free-text">
+                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-service col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class="inner-service">
+            <div class="content-service">
+              <div class="icon-service">
+                <span class="ico">
+                  <img src="img/icon-6.png" alt="">
+                </span>
+              </div>
+              <h3 class="free">
+                <a href="#" class="rer">Free Technical Audit</a>
+              </h3>
+              <div class="free-text">
+                Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
               </div>
             </div>
           </div>
@@ -359,6 +566,10 @@
     </div>
   </section>
 
+
+  
+
+ 
 
 
 
@@ -371,9 +582,9 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-
+    <script src="js/jquery-countTo.js"></script>
   <script src="js/script.js"></script>
-  <script src="js/jquery-countTo.js"></script>
+
 </body>
 
 
