@@ -43,6 +43,31 @@ $(document).ready(function(){
     //     $(this).css("border", "2px solid red ");
     // });
     $('.timer').countTo();
+
+    $(".card-button").click(function(){
+      $(this).css("color", "#23527c");
+
+    });
     
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin: 10,
+      nav:true,
+      smartSpeed:950,
+      autoplay:true,
+      
+      
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+  })
 });
     
