@@ -1,4 +1,3 @@
-if($(window).scrollTop()>1140){
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD
@@ -128,6 +127,4 @@ if($(window).scrollTop()>1140){
       data[method].call(data);
     });
   };
-
 }));
-}
