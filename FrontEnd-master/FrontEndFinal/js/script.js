@@ -1,5 +1,8 @@
 $(document).ready(function(){
 
+  $("#fact").appear(function(){
+    $(".timer").countTo();
+  });
 
 if ($(window).scrollTop() > 20) {
     $("#back-to-top").css("animation-name", "scroll-btn-show");
@@ -93,9 +96,7 @@ $("#back-to-top").click(function(){
       }
   })
 
-  $("#fact").appear(function(){
-    $('.timer').countTo();
-  });
+
 
 });
     
