@@ -1,11 +1,34 @@
 $(document).ready(function(){
 
+
+if ($(window).scrollTop() > 20) {
+    $("#back-to-top").css("animation-name", "scroll-btn-show");
+  }
+  else {
+    $("#back-to-top").css("animation-name", "scroll-btn-hidden");
+  }
+
+$("#back-to-top").click(function(){
+      $('html,body').animate({scrollTop:0},1900);
+      return false;
+    });
+
+
     $(window).scroll(function(){
-      console.log($(this).scrollTop())
+    
+        if ($(this).scrollTop() > 20) {
+    $("#back-to-top").css("animation-name", "scroll-btn-show");
+  }
+  else {
+    $("#back-to-top").css("animation-name", "scroll-btn-hidden");
+  }
+      
     })
   
     $(".search-icon").click(function(){
       $(".form-container").toggle();
+
+    
     }) 
     // if($(window).scrollTop()>0){ 
     //   $("nav").css({
@@ -42,7 +65,7 @@ $(document).ready(function(){
     // $(".input-text").click(function(){
     //     $(this).css("border", "2px solid red ");
     // });
-    $('.timer').countTo();
+  
 
     $(".card-button").click(function(){
       $(this).css("color", "#23527c");
@@ -52,7 +75,7 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
       loop:true,
       margin: 10,
-      nav:true,
+      nav:false,
       smartSpeed:950,
       autoplay:true,
       
@@ -69,5 +92,10 @@ $(document).ready(function(){
           }
       }
   })
+
+  $("#fact").appear(function(){
+    $('.timer').countTo();
+  });
+
 });
     
